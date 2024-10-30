@@ -6,11 +6,11 @@ NetSpector is a command-line tool for analyzing files
 PCAP in order to extract information on various network protocols such as:
 
 * QUIC
-* HTTP (Avec follow stream)
+* HTTP (with follow stream)
 * FTP
-* DNS (Avec follow Query & Response)
+* DNS (with follow Query & Response)
 * DHCP
-* TCP (Avec follow stream)
+* TCP (with follow stream)
 * UDP
 * ARP
 * ICMPv4 & ICMPv6
