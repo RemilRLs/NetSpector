@@ -91,7 +91,7 @@ java NetSpector -f example.pcap --tcp --tcpStream="192.168.1.1:50863-192.168.1.2
 Allows you to follow a specific TCP flow between the source IP address and the destination IP address and vice versa.
 
 
-4 - Suivre un flux HTTP spécifique
+4 - Follow HTTP Stream
 
 ```bash
 java NetSpector -f example.pcap --http --httpKey="192.168.1.2:80 -> 192.168.1.1:50000"
