@@ -113,8 +113,8 @@ java NetSpector -f example.pcap --dns
 | `-f <file>`         | Specifies the PCAP file to analyze. This parameter is required.                                       |
 | `--tcp`             | Displays only TCP packets.                                                                            |
 | `--udp`             | Displays only UDP packets.                                                                            |
-| `--dns`             | Displays only DNS packets and automatically activates `--udp`.                                        |
-| `--dhcp`            | Displays only DHCP packets and automatically activates `--udp`.                                       |
+| `--dns`             | Displays only DNS packets.                                      |
+| `--dhcp`            | Displays only DHCP packets.                                     |
 | `--ftp`             | Displays only FTP packets.                                                                            |
 | `--arp`             | Displays only ARP packets.                                                                            |
 | `--icmp`            | Displays only ICMP packets.                                                                           |
