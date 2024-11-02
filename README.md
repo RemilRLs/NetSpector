@@ -37,6 +37,7 @@ protocols.
 * The DNS protocol presented unique challenges because of the way the packet header is. Also to know if it's a DNS packet or not what so hard to determine.
 * TCP Stream was particularly challenging to manage for example birectional communication to know if it's an answer or a request.  
 * I had to understand clearly how every protocol works and how to extract data from it so read a lot of document like RFC / Wikipedia / Stackoverflow / Wireshark documentation and more...
+* Difficulty working with QUICK short headers
 
 ## Compilation 
 
