@@ -59,7 +59,7 @@ To use NetSpector, simply run the following command:
 
 
 ```bash
-java NetSpector -f <file.pcap> [options]
+java main.NetSpector -f <file.pcap> [options]
 ```
 
 ### Example of use
@@ -69,14 +69,14 @@ java NetSpector -f <file.pcap> [options]
 
 
 ```bash
-java NetSpector -f example.pcap --showall
+java main.NetSpector -f example.pcap --showall
 ```
 
 2 - Show only TCP packets
  
 
 ```bash
-java NetSpector -f example.pcap --tcp
+java main.NetSpector -f example.pcap --tcp
 ```
 
 Precision: Will display all TCP flows and information on each TCP packet.
@@ -86,7 +86,7 @@ Precision: Will display all TCP flows and information on each TCP packet.
 
 
 ```bash
-java NetSpector -f example.pcap --tcp --tcpStream="192.168.1.1:50863-192.168.1.2:80"
+java main.NetSpector -f example.pcap --tcp --tcpStream="192.168.1.1:50863-192.168.1.2:80"
 ```
 
 Allows you to follow a specific TCP flow between the source IP address and the destination IP address and vice versa.
@@ -95,7 +95,7 @@ Allows you to follow a specific TCP flow between the source IP address and the d
 4 - Follow HTTP Stream
 
 ```bash
-java NetSpector -f example.pcap --http --httpKey="192.168.1.2:80 -> 192.168.1.1:50000"
+java main.NetSpector -f example.pcap --http --httpKey="192.168.1.2:80 -> 192.168.1.1:50000"
 ```
 
 Allows you to follow an HTTP flow between the source IP address and the destination IP address.
@@ -104,7 +104,7 @@ Allows you to follow an HTTP flow between the source IP address and the destinat
 
 
 ```bash
-java NetSpector -f example.pcap --dns
+java main.NetSpector -f example.pcap --dns
 ```
 
 ## Options
